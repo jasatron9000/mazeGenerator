@@ -5,8 +5,8 @@ import datetime as time
 from matplotlib import pyplot as plt
 
 #Maze Settings
-height = 10
-width = 15
+height = 30
+width = 25
 percentage = 0.3
 
 #Generate Maze with nodes
