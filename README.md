@@ -16,5 +16,5 @@ Type this command: ``python maze.py``
 
 After this is done, a file called final.csv is generated.
 
-##Examples
+## Examples
 ![alt text](https://github.com/jasatron9000/mazeGenerator/blob/master/images/demo.png)
