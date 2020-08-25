@@ -11,5 +11,7 @@ More information here: http://weblog.jamisbuck.org/2010/12/27/maze-generation-re
 
 ## Usage
 Clone the folder and enter the command prompt inside the folder.
+
 Type this command: ``python maze.py``
+
 After this is done, a file called final.csv is generated.
