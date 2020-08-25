@@ -17,4 +17,8 @@ Type this command: ``python maze.py``
 After this is done, a file called final.csv is generated.
 
 ## Examples
+A 10x15 maze
 ![alt text](https://github.com/jasatron9000/mazeGenerator/blob/master/images/demo.png)
+
+A 25x30 maze
+![alt_text](https://github.com/jasatron9000/mazeGenerator/blob/master/images/demo%202.png)
