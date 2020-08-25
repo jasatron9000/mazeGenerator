@@ -9,7 +9,6 @@ height = 10
 width = 15
 percentage = 0.3
 
-
 #Generate Maze with nodes
 emptyMaze = mg.generateNewMaze(height, width)
 
@@ -18,6 +17,7 @@ firstPassMaze = mg.backstepping(emptyMaze)
 
 #Apply the connection algorithm
 finalMaze = mg.finalPass(firstPassMaze, percentage)
+intMaze = finalMaze.astype(int)
 
 #Reveal The Map
 for i in range(finalMaze.shape[0]):
@@ -29,6 +29,6 @@ for i in range(finalMaze.shape[0]):
     print("")
 
 #Save as cvs and image
-np.savetxt('final.csv', finalMaze, delimiter=',')
-plt.imshow(finalMaze)
+np.savetxt('final.csv', intMaze, delimiter=',', fmt="%d")
+plt.imshow(intMaze)
 plt.show()
